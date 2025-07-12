@@ -5,6 +5,7 @@ import Title from "./Title.jsx";
 import Overview from "./Overview.jsx";
 import Requirements from "./Requirements.jsx";
 import Entry from "./Entry.jsx";
+import Outline from "./Outline.jsx";
 
 function Programme() {
   return (
@@ -17,6 +18,7 @@ function Programme() {
       <Overview />
       <Requirements />
       <Entry />
+      <Outline />
     </div>
   );
 }
