@@ -1,21 +1,21 @@
 import React, { Component } from "react";
-import "./App.css";
 
-export class Overview extends Component {
+export class Tuition extends Component {
   render() {
     return (
       <section className="border border-[#eaecf0] my-[10px] mx-[70px] rounded p-4 mb-[40px]">
         <h1 className="font-semibold text-[14px] text-[#101828]">
-          Programme Overview
+          Tuition Estimate
         </h1>
         <p className="text-[13px] text-[#475467] mt-4">
-          A comprehensive programme that combines theoretical foundation with
-          practical applications in computing, software development, and
-          information technology.
+          &#8358;185,000 - &#8358;200,000 per session
         </p>
+        <small className="text-[#b42318] text-[10px] font-semibold">
+          *Fees are subject to change
+        </small>
       </section>
     );
   }
 }
 
-export default Overview;
+export default Tuition;
