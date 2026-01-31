@@ -10,6 +10,7 @@ import Duration from "./Duration.jsx";
 import Awarded from "./Awarded.jsx";
 import Tuition from "./Tuition.jsx";
 import Apply from "./Apply.jsx";
+import Footer from "./Footer.jsx";
 
 function Programme() {
   return (
@@ -27,6 +28,7 @@ function Programme() {
       <Awarded />
       <Tuition />
       <Apply />
+      <Footer />
     </section>
   );
 }
